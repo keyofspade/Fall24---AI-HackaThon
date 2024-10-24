@@ -1,0 +1,5496 @@
+[
+    {
+        "source_document": "Prescription.txt",
+        "entity": "Olivia Johnson",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:49.553416",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Prescription.txt",
+        "entity": "1989-05-03",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:49.554803",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Prescription.txt",
+        "entity": "MRN321654",
+        "category": "SWIFTCode",
+        "confidence_score": 0.97,
+        "timestamp": "2024-10-24T00:10:49.554840",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Prescription.txt",
+        "entity": "2024-10-30",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:49.554860",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Prescription.txt",
+        "entity": "Doctor",
+        "category": "PersonType",
+        "confidence_score": 0.96,
+        "timestamp": "2024-10-24T00:10:49.554877",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Prescription.txt",
+        "entity": "Emily White",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:49.554893",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Prescription.txt",
+        "entity": "Cigna Health",
+        "category": "Organization",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:49.554910",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Prescription.txt",
+        "entity": "Patient",
+        "category": "PersonType",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:49.554926",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "451-80-3526",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:49.751274",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "1950/06/09",
+        "category": "DateTime",
+        "confidence_score": 0.73,
+        "timestamp": "2024-10-24T00:10:49.751336",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "Parmer",
+        "category": "Person",
+        "confidence_score": 0.41,
+        "timestamp": "2024-10-24T00:10:49.751360",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "Santos",
+        "category": "Person",
+        "confidence_score": 0.49,
+        "timestamp": "2024-10-24T00:10:49.751379",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "Thomas",
+        "category": "Person",
+        "confidence_score": 0.7,
+        "timestamp": "2024-10-24T00:10:49.751400",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "173 Lunetta Street,Fort Worth,TX,7610",
+        "category": "Address",
+        "confidence_score": 0.84,
+        "timestamp": "2024-10-24T00:10:49.751417",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "tsantos@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:49.751434",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "4716 6984 4983 6160",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:49.751450",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "2011/09/01",
+        "category": "DateTime",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:49.751470",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "300-62-3266",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:49.751486",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "1965/02/10",
+        "category": "DateTime",
+        "confidence_score": 0.82,
+        "timestamp": "2024-10-24T00:10:49.751503",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "Faulkner,Victor",
+        "category": "Person",
+        "confidence_score": 0.72,
+        "timestamp": "2024-10-24T00:10:49.751518",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "1843 Olive Street,Toledo,OH,43602,419",
+        "category": "Address",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:49.751534",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "vfaulkner@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:49.751550",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "5548 0246 6336 5664",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:49.751566",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "2010/02/01",
+        "category": "DateTime",
+        "confidence_score": 0.57,
+        "timestamp": "2024-10-24T00:10:49.751583",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "322-84-2281",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:49.751598",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "1977/08/19",
+        "category": "DateTime",
+        "confidence_score": 0.89,
+        "timestamp": "2024-10-24T00:10:49.751620",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "Miley",
+        "category": "Person",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:49.751635",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "Iorio,",
+        "category": "Person",
+        "confidence_score": 0.79,
+        "timestamp": "2024-10-24T00:10:49.751650",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "Albert",
+        "category": "Person",
+        "confidence_score": 0.68,
+        "timestamp": "2024-10-24T00:10:49.751664",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "4899 University Hill Road,Springfield,IL",
+        "category": "Address",
+        "confidence_score": 0.91,
+        "timestamp": "2024-10-24T00:10:49.751679",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "6270",
+        "category": "Address",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:49.751689",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "aiorio@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:49.751698",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "4916 6734 7572 5015",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:49.751706",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "2010/02/01",
+        "category": "DateTime",
+        "confidence_score": 0.84,
+        "timestamp": "2024-10-24T00:10:49.751714",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "465-73-5022",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:49.751823",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "1964/06/20",
+        "category": "DateTime",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:49.751848",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "Summers",
+        "category": "Person",
+        "confidence_score": 0.78,
+        "timestamp": "2024-10-24T00:10:49.751863",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "Kaminski",
+        "category": "Person",
+        "confidence_score": 0.79,
+        "timestamp": "2024-10-24T00:10:49.751878",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "Teresa",
+        "category": "Person",
+        "confidence_score": 0.51,
+        "timestamp": "2024-10-24T00:10:49.751958",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "1517 Gambler Lane,Houston,TX,77006",
+        "category": "Address",
+        "confidence_score": 0.89,
+        "timestamp": "2024-10-24T00:10:49.751990",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "tkaminski@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:49.752003",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "5399 0706 4128 0178",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:49.752013",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData4.txt",
+        "entity": "2009/10/01",
+        "category": "DateTime",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:49.752023",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx4.txt",
+        "entity": "patient",
+        "category": "PersonType",
+        "confidence_score": 0.76,
+        "timestamp": "2024-10-24T00:10:49.884509",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx4.txt",
+        "entity": "Emma",
+        "category": "Person",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:49.884587",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx4.txt",
+        "entity": "Roberts",
+        "category": "Person",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:49.884627",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx4.txt",
+        "entity": "1990-03-11",
+        "category": "DateTime",
+        "confidence_score": 0.96,
+        "timestamp": "2024-10-24T00:10:49.884679",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx4.txt",
+        "entity": "456 Pine Avenue, Boston, MA",
+        "category": "Address",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:49.884701",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx4.txt",
+        "entity": "(555) 654-3210",
+        "category": "PhoneNumber",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:49.884770",
+        "compliance_tags": [
+            "GDPR",
+            "HIPAA"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "612-20-6832",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.011239",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "1979/08/18",
+        "category": "DateTime",
+        "confidence_score": 0.79,
+        "timestamp": "2024-10-24T00:10:50.011317",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "Banas",
+        "category": "Person",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:50.011345",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "Edwards",
+        "category": "Person",
+        "confidence_score": 0.46,
+        "timestamp": "2024-10-24T00:10:50.011364",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "Rick",
+        "category": "Person",
+        "confidence_score": 0.41,
+        "timestamp": "2024-10-24T00:10:50.011380",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "4254 Walkers Ridge Way,Gardena,CA,90248,",
+        "category": "Address",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:50.011397",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "6-9",
+        "category": "Address",
+        "confidence_score": 0.59,
+        "timestamp": "2024-10-24T00:10:50.011414",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "redwards@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.011429",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "5293 8502 0071 3058",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.011448",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "2010",
+        "category": "DateTime",
+        "confidence_score": 0.57,
+        "timestamp": "2024-10-24T00:10:50.011465",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "687-05-8365",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.011480",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "1976/05/24",
+        "category": "DateTime",
+        "confidence_score": 0.71,
+        "timestamp": "2024-10-24T00:10:50.011495",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "Robbins",
+        "category": "Person",
+        "confidence_score": 0.64,
+        "timestamp": "2024-10-24T00:10:50.011510",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "Peacock",
+        "category": "Person",
+        "confidence_score": 0.83,
+        "timestamp": "2024-10-24T00:10:50.011524",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "Stacey",
+        "category": "Person",
+        "confidence_score": 0.43,
+        "timestamp": "2024-10-24T00:10:50.011538",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "Nancy Street,Raleigh,NC,27612",
+        "category": "Address",
+        "confidence_score": 0.76,
+        "timestamp": "2024-10-24T00:10:50.011551",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "speacock@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.011567",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "5495 8602 4508 6804",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.011582",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "2011/02/01",
+        "category": "DateTime",
+        "confidence_score": 0.9,
+        "timestamp": "2024-10-24T00:10:50.011596",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "205-52-0027",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.011751",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "1950/03/",
+        "category": "DateTime",
+        "confidence_score": 0.68,
+        "timestamp": "2024-10-24T00:10:50.011778",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "Agnes,4213 High Meadow Lane,Avoca,PA,18641,570",
+        "category": "Address",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:50.011790",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "anelson@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.011800",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "5413 4428 0145 0036",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.011808",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "2010/02/01",
+        "category": "DateTime",
+        "confidence_score": 0.69,
+        "timestamp": "2024-10-24T00:10:50.011817",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "404-12-2154",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.011826",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "1984/09/21",
+        "category": "DateTime",
+        "confidence_score": 0.94,
+        "timestamp": "2024-10-24T00:10:50.011835",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "Garcia",
+        "category": "Person",
+        "confidence_score": 0.57,
+        "timestamp": "2024-10-24T00:10:50.011844",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "2877 Glen Street,Paducah,KY,42003",
+        "category": "Address",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.011854",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "mtownsend@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.011869",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "4539 8219 0484 7598",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.011879",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "2011/03/01",
+        "category": "DateTime",
+        "confidence_score": 0.96,
+        "timestamp": "2024-10-24T00:10:50.011887",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "151-32-2558",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.011896",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "1952/11/19",
+        "category": "DateTime",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:50.011905",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "Rebecca",
+        "category": "Person",
+        "confidence_score": 0.77,
+        "timestamp": "2024-10-24T00:10:50.011919",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "784 Beechwood Avenue,Piscataway",
+        "category": "Address",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:50.011966",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "NJ",
+        "category": "Address",
+        "confidence_score": 0.91,
+        "timestamp": "2024-10-24T00:10:50.012053",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "rzwick@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.012135",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "5252 5971 4219 4116",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.012200",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata5.txt",
+        "entity": "2011/02/",
+        "category": "DateTime",
+        "confidence_score": 0.58,
+        "timestamp": "2024-10-24T00:10:50.012236",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "LABORATORY FOR MOLECULAR MEDICINE",
+        "category": "Organization",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:50.263240",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "65 Landsdowne St, Cambridge, M A 02139",
+        "category": "Address",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.263292",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "(617) 768-8500",
+        "category": "PhoneNumber",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.263306",
+        "compliance_tags": [
+            "GDPR",
+            "HIPAA"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "(617) 768-8513",
+        "category": "PhoneNumber",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.263317",
+        "compliance_tags": [
+            "GDPR",
+            "HIPAA"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "DOE, JOHN",
+        "category": "Person",
+        "confidence_score": 0.73,
+        "timestamp": "2024-10-24T00:10:50.263326",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "http://pcpgm.partners.org/lmm",
+        "category": "URL",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.263335",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "12/31/1999",
+        "category": "DateTime",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:50.263343",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "0123456789",
+        "category": "UKNationalHealthNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.263352",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "physician",
+        "category": "PersonType",
+        "confidence_score": 0.67,
+        "timestamp": "2024-10-24T00:10:50.263360",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "01/24/2014",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.263369",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "patient",
+        "category": "PersonType",
+        "confidence_score": 0.96,
+        "timestamp": "2024-10-24T00:10:50.263377",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "previously",
+        "category": "DateTime",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:50.263385",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "African American",
+        "category": "PersonType",
+        "confidence_score": 0.67,
+        "timestamp": "2024-10-24T00:10:50.263394",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "NHLBI Exome Sequencing Project",
+        "category": "Organization",
+        "confidence_score": 0.9,
+        "timestamp": "2024-10-24T00:10:50.263402",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "http://evs.gs.washington.edu/EVS/)",
+        "category": "URL",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.263410",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "African American",
+        "category": "PersonType",
+        "confidence_score": 0.52,
+        "timestamp": "2024-10-24T00:10:50.263430",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "previously",
+        "category": "DateTime",
+        "confidence_score": 0.89,
+        "timestamp": "2024-10-24T00:10:50.263440",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "American College of Medical Genetics",
+        "category": "Organization",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.263449",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "patient",
+        "category": "PersonType",
+        "confidence_score": 0.63,
+        "timestamp": "2024-10-24T00:10:50.263457",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "LMNA",
+        "category": "Organization",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:50.263466",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "DCM",
+        "category": "Organization",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:50.263474",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "HealthReport.txt",
+        "entity": "Allele",
+        "category": "Person",
+        "confidence_score": 0.91,
+        "timestamp": "2024-10-24T00:10:50.263482",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "Patient",
+        "category": "PersonType",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:50.390541",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "Sarah Thompson",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.390594",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "04/15/1985",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.390620",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "123 Elm Street, Springfield, IL",
+        "category": "Address",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.390638",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "MRN123456",
+        "category": "SWIFTCode",
+        "confidence_score": 0.94,
+        "timestamp": "2024-10-24T00:10:50.390654",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "11/10/2024",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.390671",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "Doctor",
+        "category": "PersonType",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:50.390688",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "Lisa Patel",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.390705",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "Blue Cross",
+        "category": "Organization",
+        "confidence_score": 0.97,
+        "timestamp": "2024-10-24T00:10:50.390720",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "Blue Shield",
+        "category": "Organization",
+        "confidence_score": 0.71,
+        "timestamp": "2024-10-24T00:10:50.390740",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "Patient",
+        "category": "PersonType",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:50.390757",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx1.txt",
+        "entity": "now",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.390773",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "646-44-9061",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.544880",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "1978/01/12",
+        "category": "DateTime",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:50.544936",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Kurtz",
+        "category": "Person",
+        "confidence_score": 0.79,
+        "timestamp": "2024-10-24T00:10:50.544962",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Jackson",
+        "category": "Person",
+        "confidence_score": 0.7,
+        "timestamp": "2024-10-24T00:10:50.544981",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Charles",
+        "category": "Person",
+        "confidence_score": 0.75,
+        "timestamp": "2024-10-24T00:10:50.544997",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "1074 Small Street,New York,NY",
+        "category": "Address",
+        "confidence_score": 0.9,
+        "timestamp": "2024-10-24T00:10:50.545014",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "10011",
+        "category": "Address",
+        "confidence_score": 0.75,
+        "timestamp": "2024-10-24T00:10:50.545034",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "cjackson@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.545050",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "5218 0144 2703 9266",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.545064",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "2011/11/01",
+        "category": "DateTime",
+        "confidence_score": 0.79,
+        "timestamp": "2024-10-24T00:10:50.545079",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "421-37-1396",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.545094",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "1980/04/09",
+        "category": "DateTime",
+        "confidence_score": 0.84,
+        "timestamp": "2024-10-24T00:10:50.545108",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Linden",
+        "category": "Person",
+        "confidence_score": 0.51,
+        "timestamp": "2024-10-24T00:10:50.545123",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Davis",
+        "category": "Person",
+        "confidence_score": 0.53,
+        "timestamp": "2024-10-24T00:10:50.545137",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Susan",
+        "category": "Person",
+        "confidence_score": 0.44,
+        "timestamp": "2024-10-24T00:10:50.545154",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "4222 Bedford Street,Jasper,AL,35501",
+        "category": "Address",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:50.545169",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "sdavis@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.545183",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "4916 4034 9269 8783",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.545198",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "2011/04/01",
+        "category": "DateTime",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:50.545212",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "461-97-5660",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.545226",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "1975/01/04",
+        "category": "DateTime",
+        "confidence_score": 0.94,
+        "timestamp": "2024-10-24T00:10:50.545347",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Gail",
+        "category": "Address",
+        "confidence_score": 0.54,
+        "timestamp": "2024-10-24T00:10:50.545368",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "3414 Gore Street,Houston,TX,77002",
+        "category": "Address",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:50.545383",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "gwatson@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.545397",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "4532 1753 6071 1112",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.545412",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "2011/09/01",
+        "category": "DateTime",
+        "confidence_score": 0.82,
+        "timestamp": "2024-10-24T00:10:50.545426",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "660-03-8360",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.545435",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "1953/07/",
+        "category": "DateTime",
+        "confidence_score": 0.82,
+        "timestamp": "2024-10-24T00:10:50.545443",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Garrison",
+        "category": "Person",
+        "confidence_score": 0.5,
+        "timestamp": "2024-10-24T00:10:50.545452",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Lisa",
+        "category": "Address",
+        "confidence_score": 0.55,
+        "timestamp": "2024-10-24T00:10:50.545460",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "515 Hillside Drive,Lake Charles,LA",
+        "category": "Address",
+        "confidence_score": 0.87,
+        "timestamp": "2024-10-24T00:10:50.545468",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "70629",
+        "category": "Address",
+        "confidence_score": 0.51,
+        "timestamp": "2024-10-24T00:10:50.545477",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "lgarrison@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.545583",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "4539 5385 7425 5825",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.545606",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "2011/06/01",
+        "category": "DateTime",
+        "confidence_score": 0.84,
+        "timestamp": "2024-10-24T00:10:50.545687",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "751-01-2327",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.545917",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "1968/02/16",
+        "category": "DateTime",
+        "confidence_score": 0.97,
+        "timestamp": "2024-10-24T00:10:50.545970",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Simpson",
+        "category": "Person",
+        "confidence_score": 0.92,
+        "timestamp": "2024-10-24T00:10:50.545987",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Renfro",
+        "category": "Person",
+        "confidence_score": 0.87,
+        "timestamp": "2024-10-24T00:10:50.546003",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Julie",
+        "category": "Person",
+        "confidence_score": 0.61,
+        "timestamp": "2024-10-24T00:10:50.546017",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "4032 Arron Smith Drive,Kaunakakai,HI,96748,",
+        "category": "Address",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.546032",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "jrenfro@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.546047",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "5325 3256 9519 6624",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.546063",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "2009/03/01",
+        "category": "DateTime",
+        "confidence_score": 0.66,
+        "timestamp": "2024-10-24T00:10:50.546078",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "559-81-1301",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.546092",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Mcafee",
+        "category": "Person",
+        "confidence_score": 0.82,
+        "timestamp": "2024-10-24T00:10:50.546186",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Heard,",
+        "category": "Person",
+        "confidence_score": 0.63,
+        "timestamp": "2024-10-24T00:10:50.546198",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "James",
+        "category": "Person",
+        "confidence_score": 0.63,
+        "timestamp": "2024-10-24T00:10:50.546231",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "2865 Driftwood Road,San Jose,CA",
+        "category": "Address",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:50.546258",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "95129",
+        "category": "Address",
+        "confidence_score": 0.71,
+        "timestamp": "2024-10-24T00:10:50.546274",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "jheard@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.546289",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "4532 4220 6922 9909",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.546303",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "/09/",
+        "category": "DateTime",
+        "confidence_score": 0.63,
+        "timestamp": "2024-10-24T00:10:50.546376",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "624-84-9181",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.546417",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "1980/01/16",
+        "category": "DateTime",
+        "confidence_score": 0.74,
+        "timestamp": "2024-10-24T00:10:50.546441",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Frazier",
+        "category": "Person",
+        "confidence_score": 0.53,
+        "timestamp": "2024-10-24T00:10:50.546456",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Danny",
+        "category": "Person",
+        "confidence_score": 0.47,
+        "timestamp": "2024-10-24T00:10:50.546470",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "3500 Diane Street,San Luis Obispo",
+        "category": "Address",
+        "confidence_score": 0.94,
+        "timestamp": "2024-10-24T00:10:50.546485",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "CA",
+        "category": "Address",
+        "confidence_score": 0.72,
+        "timestamp": "2024-10-24T00:10:50.546587",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "dreyes@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.546598",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "4532 0065 1968 5602",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.546607",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "2009/11/01",
+        "category": "DateTime",
+        "confidence_score": 0.63,
+        "timestamp": "2024-10-24T00:10:50.546622",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "449-48-3135",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.546631",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "1982/06/14",
+        "category": "DateTime",
+        "confidence_score": 0.92,
+        "timestamp": "2024-10-24T00:10:50.546654",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Feusier",
+        "category": "DateTime",
+        "confidence_score": 0.62,
+        "timestamp": "2024-10-24T00:10:50.546680",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Hall",
+        "category": "Person",
+        "confidence_score": 0.5,
+        "timestamp": "2024-10-24T00:10:50.546698",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Mark",
+        "category": "Person",
+        "confidence_score": 0.67,
+        "timestamp": "2024-10-24T00:10:50.546712",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "4986 Chapel Street,Houston,TX",
+        "category": "Address",
+        "confidence_score": 0.92,
+        "timestamp": "2024-10-24T00:10:50.546726",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "mhall@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.546740",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "4556 0072 1294 7415",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.546755",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "2010/05/01",
+        "category": "DateTime",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:50.546769",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "477-36-0282",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.546783",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "1961/03/10",
+        "category": "DateTime",
+        "confidence_score": 0.76,
+        "timestamp": "2024-10-24T00:10:50.546797",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Vasquez",
+        "category": "Person",
+        "confidence_score": 0.72,
+        "timestamp": "2024-10-24T00:10:50.546813",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Mceachern",
+        "category": "Person",
+        "confidence_score": 0.47,
+        "timestamp": "2024-10-24T00:10:50.546828",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "Monte,",
+        "category": "Address",
+        "confidence_score": 0.52,
+        "timestamp": "2024-10-24T00:10:50.546842",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "456 Oral Lake Road,Minneapolis,MN,55401",
+        "category": "Address",
+        "confidence_score": 0.94,
+        "timestamp": "2024-10-24T00:10:50.546856",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "mmceachern@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.546872",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "Bankdata2.txt",
+        "entity": "5527 1247 5046 7780",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.546887",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "Patient",
+        "category": "PersonType",
+        "confidence_score": 0.97,
+        "timestamp": "2024-10-24T00:10:50.649569",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "Johnathan Marks",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.649624",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "09/22/1976",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.649647",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "789 Oak Lane, Chicago, IL",
+        "category": "Address",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.649665",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "(555) 987-6543",
+        "category": "PhoneNumber",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.649680",
+        "compliance_tags": [
+            "GDPR",
+            "HIPAA"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "MRN654321",
+        "category": "SWIFTCode",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.649695",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "12/05/2024",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.649711",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "Doctor",
+        "category": "PersonType",
+        "confidence_score": 0.97,
+        "timestamp": "2024-10-24T00:10:50.649726",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "Michael Stein",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.649742",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "Cigna Health",
+        "category": "Organization",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:50.649758",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "CIGNA0987654321",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.6,
+        "timestamp": "2024-10-24T00:10:50.649817",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx2.txt",
+        "entity": "Patient",
+        "category": "PersonType",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:50.649833",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "458-02-6124",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.800105",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "1955/09/20",
+        "category": "DateTime",
+        "confidence_score": 0.68,
+        "timestamp": "2024-10-24T00:10:50.800155",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Pennebaker,Diaz,Christopher",
+        "category": "Person",
+        "confidence_score": 0.64,
+        "timestamp": "2024-10-24T00:10:50.800178",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Thrash Trail,Dallas,TX",
+        "category": "Address",
+        "confidence_score": 0.74,
+        "timestamp": "2024-10-24T00:10:50.800196",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "cdiaz@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.800239",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "5299 1561 5689 1938",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.800259",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "2011/08/01",
+        "category": "DateTime",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.800275",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "044-34-6954",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.800291",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "1967/05/28",
+        "category": "DateTime",
+        "confidence_score": 0.94,
+        "timestamp": "2024-10-24T00:10:50.800306",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Simpson",
+        "category": "Person",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:50.800322",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Lowe",
+        "category": "Person",
+        "confidence_score": 0.75,
+        "timestamp": "2024-10-24T00:10:50.800337",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Tim",
+        "category": "Person",
+        "confidence_score": 0.87,
+        "timestamp": "2024-10-24T00:10:50.800352",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "1620 Maxwell Street,East Hartford,CT,6108,",
+        "category": "Address",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:50.800368",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "tlowe@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.800382",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "5144 8691 2776 1108",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.800455",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "2011/10/",
+        "category": "DateTime",
+        "confidence_score": 0.69,
+        "timestamp": "2024-10-24T00:10:50.800501",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "587-03-2682",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.800526",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "1958/10/24",
+        "category": "DateTime",
+        "confidence_score": 0.92,
+        "timestamp": "2024-10-24T00:10:50.800595",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Dickerson,",
+        "category": "Person",
+        "confidence_score": 0.72,
+        "timestamp": "2024-10-24T00:10:50.800617",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Oyola",
+        "category": "Person",
+        "confidence_score": 0.53,
+        "timestamp": "2024-10-24T00:10:50.800798",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Lynette",
+        "category": "Person",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:50.800834",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "2489 O Conner Street,Pascagoula,MS,39567,",
+        "category": "Address",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:50.800927",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "loyola@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.800986",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "4532 9929 3036 9308",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.801042",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "2011/07/01",
+        "category": "DateTime",
+        "confidence_score": 0.94,
+        "timestamp": "2024-10-24T00:10:50.801062",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "421-90-3440",
+        "category": "USSocialSecurityNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.801071",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "17,",
+        "category": "Person",
+        "confidence_score": 0.49,
+        "timestamp": "2024-10-24T00:10:50.801080",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Kroeger,",
+        "category": "Person",
+        "confidence_score": 0.71,
+        "timestamp": "2024-10-24T00:10:50.801088",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Morrison",
+        "category": "Person",
+        "confidence_score": 0.56,
+        "timestamp": "2024-10-24T00:10:50.801096",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Retreat Avenue",
+        "category": "Address",
+        "confidence_score": 0.83,
+        "timestamp": "2024-10-24T00:10:50.801105",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "Birmingham",
+        "category": "Address",
+        "confidence_score": 0.79,
+        "timestamp": "2024-10-24T00:10:50.801114",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "amorrison@domain.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.801123",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "4539 0031 3703 0728",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:50.801132",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "2009",
+        "category": "DateTime",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:50.801141",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "BankData3.txt",
+        "entity": "01",
+        "category": "DateTime",
+        "confidence_score": 0.61,
+        "timestamp": "2024-10-24T00:10:50.801149",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "Jane Doe",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.914066",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "jane.doe@email.edu",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.914136",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "University Financial Aid Office",
+        "category": "Organization",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:50.914160",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "finaid@university.edu",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.914178",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "October 19, 2024",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.914194",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "Financial Aid Office",
+        "category": "Organization",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:50.914210",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "student",
+        "category": "PersonType",
+        "confidence_score": 0.95,
+        "timestamp": "2024-10-24T00:10:50.914227",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "Jane Doe",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.914244",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "May 12, 1998",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.914260",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "456 University St., New York, NY",
+        "category": "Address",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.914276",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "student",
+        "category": "PersonType",
+        "confidence_score": 0.61,
+        "timestamp": "2024-10-24T00:10:50.914292",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "Jane Doe",
+        "category": "Person",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:50.914307",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "Computer Science Student",
+        "category": "PersonType",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:50.914323",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "University of New York",
+        "category": "Organization",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:50.914338",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "FinancialAidLoan.txt",
+        "entity": "jane.doe@email.edu",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:50.914363",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "Participant",
+        "category": "PersonType",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:51.102854",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "CalMHSA",
+        "category": "Organization",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.102934",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "Participant",
+        "category": "PersonType",
+        "confidence_score": 0.91,
+        "timestamp": "2024-10-24T00:10:51.103054",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "CalMHSA",
+        "category": "Organization",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.103077",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "JPA",
+        "category": "Organization",
+        "confidence_score": 0.47,
+        "timestamp": "2024-10-24T00:10:51.103220",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "Participant",
+        "category": "PersonType",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:51.103241",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "CalMHSA",
+        "category": "Organization",
+        "confidence_score": 0.84,
+        "timestamp": "2024-10-24T00:10:51.103257",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "July 1, 2023",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.103342",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "Participant",
+        "category": "PersonType",
+        "confidence_score": 0.62,
+        "timestamp": "2024-10-24T00:10:51.103475",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "CalMHSA",
+        "category": "Organization",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:51.103493",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "June 30, 2023",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.103504",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "July 1",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.103513",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "November 22, 2023",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.103529",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "CalMHSA",
+        "category": "Organization",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:51.103606",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "Participant",
+        "category": "PersonType",
+        "confidence_score": 0.77,
+        "timestamp": "2024-10-24T00:10:51.103742",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "representatives",
+        "category": "PersonType",
+        "confidence_score": 0.81,
+        "timestamp": "2024-10-24T00:10:51.103789",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "Participant",
+        "category": "PersonType",
+        "confidence_score": 0.91,
+        "timestamp": "2024-10-24T00:10:51.103809",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "Participant",
+        "category": "PersonType",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:51.103825",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "Participants",
+        "category": "PersonType",
+        "confidence_score": 0.95,
+        "timestamp": "2024-10-24T00:10:51.103840",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "CalMHSA",
+        "category": "Organization",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:51.103855",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "vendor",
+        "category": "PersonType",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:51.103870",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "CalMHSA",
+        "category": "Organization",
+        "confidence_score": 0.66,
+        "timestamp": "2024-10-24T00:10:51.103885",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "Participant",
+        "category": "PersonType",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:51.103910",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx1.txt",
+        "entity": "Participant",
+        "category": "PersonType",
+        "confidence_score": 0.95,
+        "timestamp": "2024-10-24T00:10:51.103927",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "CLM123456789",
+        "category": "Person",
+        "confidence_score": 0.68,
+        "timestamp": "2024-10-24T00:10:51.313075",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "POL987654321",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.63,
+        "timestamp": "2024-10-24T00:10:51.313121",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "johndoe@email.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.313134",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "CLM987654321",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.68,
+        "timestamp": "2024-10-24T00:10:51.313144",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "janesmith@email.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.313153",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "Pine St",
+        "category": "Address",
+        "confidence_score": 0.61,
+        "timestamp": "2024-10-24T00:10:51.313162",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "Chicago",
+        "category": "Address",
+        "confidence_score": 0.76,
+        "timestamp": "2024-10-24T00:10:51.313172",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "robertwilliams@email.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.313180",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "1982-04-18",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.54,
+        "timestamp": "2024-10-24T00:10:51.313213",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "Maple Ave",
+        "category": "Address",
+        "confidence_score": 0.73,
+        "timestamp": "2024-10-24T00:10:51.313235",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "Dallas",
+        "category": "Address",
+        "confidence_score": 0.75,
+        "timestamp": "2024-10-24T00:10:51.313251",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "TX",
+        "category": "Address",
+        "confidence_score": 0.54,
+        "timestamp": "2024-10-24T00:10:51.313265",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "emilyjones@email.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.313281",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "CLM444555666",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.57,
+        "timestamp": "2024-10-24T00:10:51.313296",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "POL555444333",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.56,
+        "timestamp": "2024-10-24T00:10:51.313311",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "1995-12-30",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:51.313325",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "michaelbrown@email.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.313340",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "jessicagarcia@email.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.313355",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "David,Martinez,1988-03-10,[REDACTED],234",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.71,
+        "timestamp": "2024-10-24T00:10:51.313369",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "davidmartinez@email.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.313384",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "sarahlopez@email.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.313397",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "1980-02-15",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.6,
+        "timestamp": "2024-10-24T00:10:51.313411",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "kevinwilson@email.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.313425",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "POL222111444",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.56,
+        "timestamp": "2024-10-24T00:10:51.313439",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "Laura,Anderson,1989-11-30",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.73,
+        "timestamp": "2024-10-24T00:10:51.313559",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "Maple",
+        "category": "Address",
+        "confidence_score": 0.52,
+        "timestamp": "2024-10-24T00:10:51.313628",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx1.txt",
+        "entity": "lauraanderson@email.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.313701",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "November 22, 2023",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.539608",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "employee",
+        "category": "PersonType",
+        "confidence_score": 0.97,
+        "timestamp": "2024-10-24T00:10:51.539686",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "officer",
+        "category": "PersonType",
+        "confidence_score": 0.96,
+        "timestamp": "2024-10-24T00:10:51.539711",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "agent",
+        "category": "PersonType",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:51.539729",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Chief Privacy Officer",
+        "category": "PersonType",
+        "confidence_score": 0.87,
+        "timestamp": "2024-10-24T00:10:51.539745",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "DHCS",
+        "category": "Organization",
+        "confidence_score": 0.67,
+        "timestamp": "2024-10-24T00:10:51.539761",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Officer",
+        "category": "PersonType",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:51.539787",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "DHCS",
+        "category": "Organization",
+        "confidence_score": 0.76,
+        "timestamp": "2024-10-24T00:10:51.539803",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Officer",
+        "category": "PersonType",
+        "confidence_score": 0.68,
+        "timestamp": "2024-10-24T00:10:51.539819",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "DHCS",
+        "category": "Organization",
+        "confidence_score": 0.53,
+        "timestamp": "2024-10-24T00:10:51.539835",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Social Security",
+        "category": "Organization",
+        "confidence_score": 0.69,
+        "timestamp": "2024-10-24T00:10:51.539850",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Business Associate",
+        "category": "PersonType",
+        "confidence_score": 0.94,
+        "timestamp": "2024-10-24T00:10:51.539866",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "DHCS Privacy Office",
+        "category": "Organization",
+        "confidence_score": 0.9,
+        "timestamp": "2024-10-24T00:10:51.539884",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "www.dhcs.ca.gov",
+        "category": "URL",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.539902",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Business Associate",
+        "category": "Organization",
+        "confidence_score": 0.87,
+        "timestamp": "2024-10-24T00:10:51.539927",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "environment",
+        "category": "Organization",
+        "confidence_score": 0.71,
+        "timestamp": "2024-10-24T00:10:51.539944",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Business",
+        "category": "Organization",
+        "confidence_score": 0.54,
+        "timestamp": "2024-10-24T00:10:51.539960",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "PSCI",
+        "category": "Organization",
+        "confidence_score": 0.95,
+        "timestamp": "2024-10-24T00:10:51.539975",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Business Associate",
+        "category": "PersonType",
+        "confidence_score": 0.69,
+        "timestamp": "2024-10-24T00:10:51.539990",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Chief Privacy Officer",
+        "category": "PersonType",
+        "confidence_score": 0.71,
+        "timestamp": "2024-10-24T00:10:51.540004",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "DHCS",
+        "category": "Organization",
+        "confidence_score": 0.78,
+        "timestamp": "2024-10-24T00:10:51.540023",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Officer",
+        "category": "PersonType",
+        "confidence_score": 0.73,
+        "timestamp": "2024-10-24T00:10:51.540038",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "DHCS",
+        "category": "Organization",
+        "confidence_score": 0.96,
+        "timestamp": "2024-10-24T00:10:51.540057",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Officer",
+        "category": "PersonType",
+        "confidence_score": 0.49,
+        "timestamp": "2024-10-24T00:10:51.540071",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Business Associate",
+        "category": "Organization",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:51.540202",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Chief Privacy Officer",
+        "category": "PersonType",
+        "confidence_score": 0.75,
+        "timestamp": "2024-10-24T00:10:51.540343",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "DHCS",
+        "category": "PersonType",
+        "confidence_score": 0.54,
+        "timestamp": "2024-10-24T00:10:51.540373",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Officer",
+        "category": "PersonType",
+        "confidence_score": 0.55,
+        "timestamp": "2024-10-24T00:10:51.540445",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Individuals",
+        "category": "PersonType",
+        "confidence_score": 0.68,
+        "timestamp": "2024-10-24T00:10:51.540492",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Business Associate",
+        "category": "PersonType",
+        "confidence_score": 0.9,
+        "timestamp": "2024-10-24T00:10:51.540526",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Entity Chief Privacy",
+        "category": "PersonType",
+        "confidence_score": 0.64,
+        "timestamp": "2024-10-24T00:10:51.540576",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Officer",
+        "category": "PersonType",
+        "confidence_score": 0.87,
+        "timestamp": "2024-10-24T00:10:51.540594",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "DHCS",
+        "category": "Organization",
+        "confidence_score": 0.56,
+        "timestamp": "2024-10-24T00:10:51.540634",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "DHCS",
+        "category": "Organization",
+        "confidence_score": 0.57,
+        "timestamp": "2024-10-24T00:10:51.540653",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Associate",
+        "category": "PersonType",
+        "confidence_score": 0.7,
+        "timestamp": "2024-10-24T00:10:51.540668",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "agents",
+        "category": "PersonType",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:51.540700",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "subcontractors",
+        "category": "PersonType",
+        "confidence_score": 0.53,
+        "timestamp": "2024-10-24T00:10:51.540745",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "consultants",
+        "category": "PersonType",
+        "confidence_score": 0.44,
+        "timestamp": "2024-10-24T00:10:51.540801",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "Business Associates",
+        "category": "Organization",
+        "confidence_score": 0.87,
+        "timestamp": "2024-10-24T00:10:51.540819",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "LegalEx2.txt",
+        "entity": "November 22, 2023",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.540834",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "PatientSmith.txt",
+        "entity": "Michael Smith",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.629578",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "PatientSmith.txt",
+        "entity": "1975-06-22",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.629645",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "PatientSmith.txt",
+        "entity": "MRN567890",
+        "category": "SWIFTCode",
+        "confidence_score": 0.91,
+        "timestamp": "2024-10-24T00:10:51.629669",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "PatientSmith.txt",
+        "entity": "2024-12-01",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.629686",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "PatientSmith.txt",
+        "entity": "Doctor",
+        "category": "PersonType",
+        "confidence_score": 0.97,
+        "timestamp": "2024-10-24T00:10:51.629701",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "PatientSmith.txt",
+        "entity": "John Doe",
+        "category": "Person",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:51.629716",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "PatientSmith.txt",
+        "entity": "Humana",
+        "category": "Organization",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.629731",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "PatientSmith.txt",
+        "entity": "Patient",
+        "category": "PersonType",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:51.629745",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "John",
+        "category": "Person",
+        "confidence_score": 0.97,
+        "timestamp": "2024-10-24T00:10:51.847605",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "1985-07-15",
+        "category": "DateTime",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:51.847662",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "2023-09-12",
+        "category": "DateTime",
+        "confidence_score": 0.91,
+        "timestamp": "2024-10-24T00:10:51.847686",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Jane",
+        "category": "Person",
+        "confidence_score": 0.79,
+        "timestamp": "2024-10-24T00:10:51.847703",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Smith",
+        "category": "Person",
+        "confidence_score": 0.41,
+        "timestamp": "2024-10-24T00:10:51.847719",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "1990-03-22",
+        "category": "DateTime",
+        "confidence_score": 0.68,
+        "timestamp": "2024-10-24T00:10:51.847735",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Homeowners",
+        "category": "PersonType",
+        "confidence_score": 0.52,
+        "timestamp": "2024-10-24T00:10:51.847751",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "-08-",
+        "category": "DateTime",
+        "confidence_score": 0.47,
+        "timestamp": "2024-10-24T00:10:51.847767",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Robert",
+        "category": "Person",
+        "confidence_score": 0.5,
+        "timestamp": "2024-10-24T00:10:51.847782",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Emily",
+        "category": "Person",
+        "confidence_score": 0.71,
+        "timestamp": "2024-10-24T00:10:51.847796",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Jones",
+        "category": "Person",
+        "confidence_score": 0.52,
+        "timestamp": "2024-10-24T00:10:51.847812",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "1982-04-18",
+        "category": "DateTime",
+        "confidence_score": 0.92,
+        "timestamp": "2024-10-24T00:10:51.847827",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "2023-10-05",
+        "category": "DateTime",
+        "confidence_score": 0.67,
+        "timestamp": "2024-10-24T00:10:51.847843",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "CLM100000005",
+        "category": "Person",
+        "confidence_score": 0.59,
+        "timestamp": "2024-10-24T00:10:51.847858",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Michael",
+        "category": "Person",
+        "confidence_score": 0.74,
+        "timestamp": "2024-10-24T00:10:51.847872",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Brown",
+        "category": "Person",
+        "confidence_score": 0.7,
+        "timestamp": "2024-10-24T00:10:51.847912",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "1995-12-",
+        "category": "DateTime",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:51.847935",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Homeowners",
+        "category": "PersonType",
+        "confidence_score": 0.74,
+        "timestamp": "2024-10-24T00:10:51.847951",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "2023-08-",
+        "category": "DateTime",
+        "confidence_score": 0.62,
+        "timestamp": "2024-10-24T00:10:51.847965",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Jessica",
+        "category": "Person",
+        "confidence_score": 0.54,
+        "timestamp": "2024-10-24T00:10:51.848080",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Garcia",
+        "category": "Person",
+        "confidence_score": 0.61,
+        "timestamp": "2024-10-24T00:10:51.848192",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "1992-06-22",
+        "category": "DateTime",
+        "confidence_score": 0.96,
+        "timestamp": "2024-10-24T00:10:51.848216",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "2023-07-10",
+        "category": "DateTime",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:51.848317",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "David",
+        "category": "Person",
+        "confidence_score": 0.84,
+        "timestamp": "2024-10-24T00:10:51.848344",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Martinez",
+        "category": "Person",
+        "confidence_score": 0.58,
+        "timestamp": "2024-10-24T00:10:51.848363",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "1988-03-10",
+        "category": "DateTime",
+        "confidence_score": 0.84,
+        "timestamp": "2024-10-24T00:10:51.848390",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "2023-09-05",
+        "category": "DateTime",
+        "confidence_score": 0.58,
+        "timestamp": "2024-10-24T00:10:51.848406",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "1993-10-25",
+        "category": "DateTime",
+        "confidence_score": 0.66,
+        "timestamp": "2024-10-24T00:10:51.848422",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "CLM100000009",
+        "category": "Person",
+        "confidence_score": 0.5,
+        "timestamp": "2024-10-24T00:10:51.848438",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Kevin",
+        "category": "Person",
+        "confidence_score": 0.58,
+        "timestamp": "2024-10-24T00:10:51.848454",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Wilson",
+        "category": "Person",
+        "confidence_score": 0.62,
+        "timestamp": "2024-10-24T00:10:51.848470",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "1980-02-15",
+        "category": "DateTime",
+        "confidence_score": 0.83,
+        "timestamp": "2024-10-24T00:10:51.848485",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Laura",
+        "category": "Person",
+        "confidence_score": 0.96,
+        "timestamp": "2024-10-24T00:10:51.848501",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "Anderson",
+        "category": "Person",
+        "confidence_score": 0.74,
+        "timestamp": "2024-10-24T00:10:51.848533",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceEx2.txt",
+        "entity": "1989-11-30",
+        "category": "DateTime",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:51.848551",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEmail.txt",
+        "entity": "Sarah Johnson",
+        "category": "Person",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:51.946338",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEmail.txt",
+        "entity": "sjohnson@clinic.org",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.946396",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "MedicalEmail.txt",
+        "entity": "John Doe",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.946417",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEmail.txt",
+        "entity": "johndoe@example.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:51.946433",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "MedicalEmail.txt",
+        "entity": "2024-10-15",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.946447",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEmail.txt",
+        "entity": "John",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.946463",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEmail.txt",
+        "entity": "in 3 months",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.946478",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEmail.txt",
+        "entity": "Sarah Johnson",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:51.946492",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Bert Eshelby",
+        "category": "Person",
+        "confidence_score": 0.74,
+        "timestamp": "2024-10-24T00:10:52.207771",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "beshelby0@t-online.de",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.207831",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "13.84.33.231",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.207852",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3543951842051288",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.207868",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Wayne Jelk",
+        "category": "Person",
+        "confidence_score": 0.75,
+        "timestamp": "2024-10-24T00:10:52.207883",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "wjelk1@miibeian.gov.cn",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.207898",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "219.115.22.1",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.207913",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3574922401749937",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.207927",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3574922401749937",
+        "category": "IDIdentityCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.207941",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Jeno Woodruff",
+        "category": "Person",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:52.207957",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "jwoodruff2@scientificamerican.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.207972",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "60.76.116.163",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.207987",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3588744702964559",
+        "category": "IDIdentityCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208001",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3588744702964559",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208015",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Marisa Branton",
+        "category": "Person",
+        "confidence_score": 0.94,
+        "timestamp": "2024-10-24T00:10:52.208029",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "mbranton3@msn.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208043",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "169.9.150.151",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208235",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "5100136211210919",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208265",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "5100136211210919",
+        "category": "IDIdentityCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208344",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "5100136211210919",
+        "category": "EUDebitCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208423",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Freddi Poulson",
+        "category": "Person",
+        "confidence_score": 0.74,
+        "timestamp": "2024-10-24T00:10:52.208480",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "fpoulson4@4shared.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208508",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "67.21.14.81",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208525",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3546839366604342",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208540",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Salvidor Albisser",
+        "category": "Person",
+        "confidence_score": 0.86,
+        "timestamp": "2024-10-24T00:10:52.208555",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "salbisser5@nytimes.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208570",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "115.132.181.60",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208586",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "30070464679569",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208601",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Hendrick Roscoe",
+        "category": "Person",
+        "confidence_score": 0.89,
+        "timestamp": "2024-10-24T00:10:52.208615",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "hroscoe6@oracle.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208638",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "249.5.68.202",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208653",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "4844606668197466",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208667",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "4844606668197466",
+        "category": "EUDebitCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208682",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "ered7@weather.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208696",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "76.81.32.43",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208712",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3,4844243347945493",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.52,
+        "timestamp": "2024-10-24T00:10:52.208810",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Rosaleen Barnewille",
+        "category": "Person",
+        "confidence_score": 0.87,
+        "timestamp": "2024-10-24T00:10:52.208830",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "rbarnewille8@japanpost.jp",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208846",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "179.92.92.173",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208861",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3581105429760695",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208876",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Ancell Glaze",
+        "category": "Person",
+        "confidence_score": 0.87,
+        "timestamp": "2024-10-24T00:10:52.208894",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "aglaze9@yahoo.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208911",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "17.24.68.129",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208926",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "374283559375571",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208945",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "cvitterya@google.com.br",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208954",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "179.181.157.45",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208963",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "490367412749228000",
+        "category": "EUDebitCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.208971",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Madeleine Dreelan",
+        "category": "Person",
+        "confidence_score": 0.82,
+        "timestamp": "2024-10-24T00:10:52.208979",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "mdreelanb@oracle.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208987",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "69.99.241.6",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.208995",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "30016706513462",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209004",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Myra Thewys",
+        "category": "Person",
+        "confidence_score": 0.72,
+        "timestamp": "2024-10-24T00:10:52.209012",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "mthewysc@fastcompany.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209020",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "60.179.191.191",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209029",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3556439178971588",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209153",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Haywood Wimmers",
+        "category": "Person",
+        "confidence_score": 0.56,
+        "timestamp": "2024-10-24T00:10:52.209175",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "hwimmersd@de.vu",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209192",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "252.46.81.175",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209208",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "5602234747091979",
+        "category": "EUDebitCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209227",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Alysia",
+        "category": "Person",
+        "confidence_score": 0.43,
+        "timestamp": "2024-10-24T00:10:52.209242",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "abarrowe@zdnet.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209256",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "43.44.97.49",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209271",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "30374073396296",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209285",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Maurie Sewall",
+        "category": "Person",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:52.209300",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "msewallf@people.com.cn",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209314",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "226.1.230.115",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209331",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "5002357008559685",
+        "category": "EUDebitCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209349",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Preston Wickes",
+        "category": "Person",
+        "confidence_score": 0.54,
+        "timestamp": "2024-10-24T00:10:52.209364",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "pwickesg@telegraph.co.uk",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209379",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "47.224.107.181",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209401",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "30532864526393",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209417",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Roland Grevile",
+        "category": "Person",
+        "confidence_score": 0.84,
+        "timestamp": "2024-10-24T00:10:52.209432",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "rgrevileh@businesswire.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209446",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "114.100.137.146",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209464",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3566257007492107",
+        "category": "IDIdentityCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209479",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3566257007492107",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209494",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "cplasteri@adobe.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209508",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "101.25.98.61",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209525",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "6394983450941313",
+        "category": "EUDebitCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209540",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Cara Forsythe",
+        "category": "Person",
+        "confidence_score": 0.78,
+        "timestamp": "2024-10-24T00:10:52.209554",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "cforsythej@ucoz.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209569",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "189.41.208.75",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209586",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3557878599831732",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209606",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Mac Kachel",
+        "category": "Person",
+        "confidence_score": 0.9,
+        "timestamp": "2024-10-24T00:10:52.209622",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "mkachelk@mac.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209636",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "180.155.212.193",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209650",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3561787265778719",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209665",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Ransom Melia",
+        "category": "Person",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:52.209679",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "rmelial@businessweek.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209696",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "33.143.128.96",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209711",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3578056310823826",
+        "category": "IDIdentityCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209726",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3578056310823826",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209740",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Raymond Boorer",
+        "category": "Person",
+        "confidence_score": 0.9,
+        "timestamp": "2024-10-24T00:10:52.209754",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "rboorerm@newsvine.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209772",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "245.62.215.2",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209802",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3568570408301968",
+        "category": "IDIdentityCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209818",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3568570408301968",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209836",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Kally Treversh",
+        "category": "Person",
+        "confidence_score": 0.73,
+        "timestamp": "2024-10-24T00:10:52.209852",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "ktrevershn@dailymotion.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209867",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "92.243.172.82",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209881",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "5519703212569802",
+        "category": "EUDebitCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209898",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "5519703212569802",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209914",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Rania Pailin",
+        "category": "Person",
+        "confidence_score": 0.94,
+        "timestamp": "2024-10-24T00:10:52.209929",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "rpailino@lulu.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209943",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "231.231.124.129",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209958",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "30214205108823",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.209973",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Brant Gethouse",
+        "category": "Person",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.209988",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "bgethousep@sitemeter.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210002",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "139.98.53.142",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210020",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "5602225776326708",
+        "category": "EUDebitCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.210040",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Oralia Immings",
+        "category": "Person",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:52.210056",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "oimmingsq@google.cn",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210071",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "34.93.57.186",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210085",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3567678930912722",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.210100",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Alethea Rumble",
+        "category": "Person",
+        "confidence_score": 0.99,
+        "timestamp": "2024-10-24T00:10:52.210117",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "arumbler@theglobeandmail.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210132",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "204.124.88.219",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210147",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3546909950465606",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.210161",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "hpolyes@hubpages.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210175",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "82.75.97.204",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210190",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "3575505123064914",
+        "category": "CreditCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.210204",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Ingmar Corten",
+        "category": "Person",
+        "confidence_score": 0.85,
+        "timestamp": "2024-10-24T00:10:52.210222",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "icortent@epa.gov",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210241",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "30.168.150.95",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210256",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "5602216841757209",
+        "category": "EUDebitCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.210271",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "Carly Weddeburn",
+        "category": "Person",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:52.210285",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "cweddeburnu@kickstarter.com",
+        "category": "Email",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210299",
+        "compliance_tags": [
+            "GDPR"
+        ],
+        "action": "Encrypt"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "79.106.126.157",
+        "category": "IPAddress",
+        "confidence_score": 0.8,
+        "timestamp": "2024-10-24T00:10:52.210314",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "ip-creditcard-email.txt",
+        "entity": "5602221990895859",
+        "category": "EUDebitCardNumber",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.210329",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceClaim.txt",
+        "entity": "Jane Doe",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.335313",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceClaim.txt",
+        "entity": "CLM123456",
+        "category": "SWIFTCode",
+        "confidence_score": 0.97,
+        "timestamp": "2024-10-24T00:10:52.335385",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceClaim.txt",
+        "entity": "2024-09-12",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.335409",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceClaim.txt",
+        "entity": "2024-09-15",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.335425",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceClaim.txt",
+        "entity": "New York General Hospital",
+        "category": "Organization",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.335440",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceClaim.txt",
+        "entity": "Insurance Adjuster",
+        "category": "PersonType",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:52.335455",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "InsuranceClaim.txt",
+        "entity": "Mark Thompson",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.335469",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "patient",
+        "category": "PersonType",
+        "confidence_score": 0.93,
+        "timestamp": "2024-10-24T00:10:52.458532",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "Sarah",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.458588",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "Thompson",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.458609",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "1985-04-15",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.458628",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "123 Elm Street, Springfield, IL",
+        "category": "Address",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.458644",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "MRN123456",
+        "category": "SWIFTCode",
+        "confidence_score": 0.78,
+        "timestamp": "2024-10-24T00:10:52.458661",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "2024-11-10",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.458676",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "doctor",
+        "category": "PersonType",
+        "confidence_score": 0.84,
+        "timestamp": "2024-10-24T00:10:52.458691",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "Lisa Patel",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.458705",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "insurance",
+        "category": "Organization",
+        "confidence_score": 0.6,
+        "timestamp": "2024-10-24T00:10:52.458719",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "BCBS123456789",
+        "category": "InternationalBankingAccountNumber",
+        "confidence_score": 0.82,
+        "timestamp": "2024-10-24T00:10:52.458734",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "Patient",
+        "category": "PersonType",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:52.458748",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "MedicalEx3txt.txt",
+        "entity": "now",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.458778",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "CustomerName",
+        "category": "PersonType",
+        "confidence_score": 0.65,
+        "timestamp": "2024-10-24T00:10:52.640387",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "John Smith",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640497",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "2024-01-15",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640527",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "CustomerName",
+        "category": "PersonType",
+        "confidence_score": 0.95,
+        "timestamp": "2024-10-24T00:10:52.640546",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "Emma Johnson",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640563",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "2024-01-16",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640580",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "CustomerName",
+        "category": "PersonType",
+        "confidence_score": 0.75,
+        "timestamp": "2024-10-24T00:10:52.640597",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "Michael Brown",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640613",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "2024-01-17",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640628",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "CustomerName",
+        "category": "PersonType",
+        "confidence_score": 0.78,
+        "timestamp": "2024-10-24T00:10:52.640643",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "Sarah Wilson",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640657",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "2024-01-18",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640671",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "CustomerName",
+        "category": "PersonType",
+        "confidence_score": 0.96,
+        "timestamp": "2024-10-24T00:10:52.640702",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "James Davis",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640756",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "2024-01-19",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640786",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "Linda Martinez",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640799",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "2024-01-20",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640809",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "CustomerName",
+        "category": "PersonType",
+        "confidence_score": 0.88,
+        "timestamp": "2024-10-24T00:10:52.640818",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "David Garcia",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640826",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "2024-01-21",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640835",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "CustomerName",
+        "category": "PersonType",
+        "confidence_score": 0.98,
+        "timestamp": "2024-10-24T00:10:52.640843",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "Jessica Rodriguez",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640851",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "2024-01-22",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640860",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "CustomerName",
+        "category": "PersonType",
+        "confidence_score": 0.92,
+        "timestamp": "2024-10-24T00:10:52.640868",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "Robert Lee",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640876",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "2024-01-23",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640885",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "CustomerName",
+        "category": "PersonType",
+        "confidence_score": 0.9,
+        "timestamp": "2024-10-24T00:10:52.640900",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "Patricia Walker",
+        "category": "Person",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640910",
+        "compliance_tags": [],
+        "action": "None"
+    },
+    {
+        "source_document": "RetailTransactions.txt",
+        "entity": "2024-01-24",
+        "category": "DateTime",
+        "confidence_score": 1.0,
+        "timestamp": "2024-10-24T00:10:52.640918",
+        "compliance_tags": [],
+        "action": "None"
+    }
+]

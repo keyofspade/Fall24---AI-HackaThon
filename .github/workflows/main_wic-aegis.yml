@@ -73,5 +73,5 @@ jobs:
         with:
           app-name: 'WIC-Aegis'
           slot-name: 'Production'
-          startup_command: 'gunicorn --bind=0.0.0.0 --timeout 600 app:app'
+          startup-command: 'gunicorn --bind=0.0.0.0 --timeout 600 app:app'
                 

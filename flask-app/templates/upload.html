@@ -3,177 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Privacy & Compliance Dashboard</title>
+    <title>Aegis Defense: Data Privacy & Compliance Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #4b79a1;
-            color: #333;
-        }
-
-        header {
-            background-color: #0078d4;
-            color: white;
-            padding: 1rem 2rem;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-weight: 700;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            background-color: white;
-            border-radius: 8px;
-        }
-
-        .section-title {
-            font-weight: 500;
-            color: white;
-            margin-bottom: 1.5rem;
-            border-bottom: 2px solid #0078d4;
-            padding-bottom: 0.5rem;
-            display: inline-block;
-        }
-
-        .content {
-            display: flex;
-            gap: 2rem;
-            flex-wrap: wrap;
-        }
-
-        .card {
-            background-color: #f9fbfd;
-            padding: 1.5rem;
-            flex: 1 1 300px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .card h2 {
-            margin-top: 0;
-            color: #005a9e;
-            font-weight: 500;
-        }
-
-        .card p {
-            margin: 0.5rem 0;
-        }
-
-        .data-table {
-            width: 100%;
-            margin-top: 1rem;
-            border-collapse: collapse;
-        }
-
-        .data-table th, .data-table td {
-            padding: 0.75rem 1rem;
-            border: 1px solid #ddd;
-            text-align: left;
-        }
-
-        .data-table th {
-            background-color: #0078d4;
-            color: white;
-            font-weight: 500;
-        }
-
-        .upload-section {
-            margin-top: 2rem;
-            padding: 1.5rem;
-            background-color: #eaf3fc;
-            border-radius: 8px;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .upload-section input[type="file"] {
-            display: none;
-        }
-
-        .upload-section label {
-            display: inline-block;
-            padding: 0.75rem 1.5rem;
-            color: white;
-            background-color: #0078d4;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: 500;
-            margin-top: 0.5rem;
-        }
-
-        .footer {
-            background-color: #f4f4f9;
-            color: #333;
-            text-align: center;
-            padding: 1rem 2rem;
-            margin-top: 2rem;
-            font-size: 0.9rem;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .content {
-                flex-direction: column;
-            }
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="../static/static.css"/> <!-- Corrected the attribute syntax -->
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aegis Defense</title>
 </head>
 <body>
 
     <header>
-        <h1>Aegis Defense</h1>
+        <h1>Aegis Scan: Data Privacy & Compliance Dashboard</h1>
+        <p>This dashboard helps you upload files, view detected sensitive data, and review compliance recommendations for regulatory standards like GDPR and HIPAA.</p>
+        <button onclick="speakText()" aria-label="Activate text-to-speech for overview">🔊 Hear Overview</button>
     </header>
 
     <main class="container">
-        <section>
-            <h2 class="section-title">Overview</h2>
-            <div class="content">
-                <div class="card">
-                    <h2>Total Sensitive Data Detected</h2>
-                </div>
-                <div class="card">
-                    <h2>Compliance Tags</h2>
-                    <p>GDPR, HIPAA, FERPA</p>
-                </div>
-                <div class="card">
-                    <h2>Recommendations</h2>
-                </div>
-            </div>
+        <img src="../static/AegisScanLogoCrop.webp" class="logo"/>
+        <section class="project-description">
+            <h2>Project Overview</h2>
+            <p>
+                Welcome to the Aegis Scan App! This project is designed to help organizations monitor and manage their data privacy and compliance efforts effectively. By providing a centralized interface, users can easily upload, analyze, and visualize their data privacy metrics, ensuring adherence to relevant regulations and best practices. Our goal is to empower businesses to safeguard sensitive information while maintaining transparency and accountability.
+            </p>
         </section>
-
-        <section>
-            <h2 class="section-title">Sensitive Data Log</h2>
-            <table class="data-table">
-                <thead>
-                    <tr>
-                        <th>Type</th>
-                        <th>Data</th>
-                        <th>Category</th>
-                        <th>Action Recommended</th>
-                        <th>Timestamp</th>
-                    </tr>
-                </thead>
-                <tbody>
-
-                </tbody>
-            </table>
+        
+        <section class="usage-instructions">
+            <h2>How to Use the Dashboard</h2>
+            <p>
+                Getting started with the Data Privacy & Compliance Dashboard is simple. Follow these steps:
+            </p>
+            <ol>
+                <li>
+                    <strong>Upload Data Files:</strong> Click on the "Upload" button to select and upload your data files. Supported formats include .txt and .csv.
+                </li>
+                <li>
+                    <strong>Analyze Data:</strong> Once uploaded, the dashboard will automatically analyze the data and display key metrics and insights.
+                </li>
+                <li>
+                    <strong>Visualize Results:</strong> Explore the visualizations provided to gain a better understanding of your data privacy status and compliance levels.
+                </li>
+                <li>
+                    <strong>Generate Reports:</strong> Use the reporting feature to generate summaries and detailed reports for stakeholders.
+                </li>
+            </ol>
+            <p>
+                If you have any questions or need further assistance, please refer to the help section or contact our support team.
+            </p>
         </section>
-
+        
         <section class="upload-section">
             <h2 class="section-title">Upload Your File</h2>
-            <p>Upload files to be scanned and logged for sensitive data.</p>
-            <input type="file" id="fileInput" />
+            <p>Upload .txt files to be scanned and logged for sensitive data.</p>
+            <input type="file" id="fileInput" accept=".txt" onchange="displayFileName()" />
             <label for="fileInput">Choose File</label>
+            <p id="fileName"></p>
             <button onclick="uploadFile()">Upload</button>
             <p id="uploadStatus"></p>
         </section>
@@ -184,6 +68,18 @@
     </footer>
 
     <script>
+        // Display the selected file name
+        function displayFileName() {
+            const fileInput = document.getElementById('fileInput');
+            const fileNameDisplay = document.getElementById('fileName');
+            if (fileInput.files.length > 0) {
+                fileNameDisplay.innerText = `Selected file: ${fileInput.files[0].name}`;
+            } else {
+                fileNameDisplay.innerText = '';
+            }
+        }
+
+        // Upload the file to the server
         async function uploadFile() {
             const fileInput = document.getElementById('fileInput');
             const uploadStatus = document.getElementById('uploadStatus');
@@ -193,29 +89,30 @@
                 return;
             }
 
-            const file = fileInput.files[0];
-            const sasUrl = "YOUR_BLOB_SAS_URL"; // Replace with your Azure Blob SAS URL
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
 
             try {
                 uploadStatus.innerText = "Uploading...";
 
-                const response = await fetch(`${sasUrl}/${file.name}`, {
-                    method: 'PUT',
-                    headers: {
-                        'x-ms-blob-type': 'BlockBlob'
-                    },
-                    body: file
+                const response = await fetch('/upload', {
+                    method: 'POST',
+                    body: formData
                 });
 
                 if (response.ok) {
                     uploadStatus.innerText = "File uploaded successfully.";
                 } else {
-                    uploadStatus.innerText = "Upload failed. Please try again.";
+                    const errorData = await response.json();
+                    uploadStatus.innerText = `Upload failed: ${errorData.error}`;
                 }
             } catch (error) {
                 console.error("Error uploading file:", error);
+                const responseText = await response.text(); // Get the response text
+                console.error("Server response:", responseText); // Log the server response
                 uploadStatus.innerText = "Error uploading file.";
             }
+
         }
     </script>
 

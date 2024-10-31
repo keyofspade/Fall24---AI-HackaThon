@@ -3,12 +3,12 @@
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #4b79a1; /* Original background */
+        background-color: #4b79a1;
         color: #333;
     }
 
     header {
-        background-color: #40687C; /* Deep teal for header */
+        background-color: #40687C;
         color: white;
         padding: 1rem 2rem;
         text-align: center;
@@ -25,15 +25,15 @@
         margin: 0 auto;
         padding: 2rem;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        background-color: white; /* White for main content */
-        border-radius: 12px; /* Slightly rounded corners for a softer look */
+        background-color: white;
+        border-radius: 12px;
     }
 
     .section-title {
         font-weight: 500;
-        color: #40687C; /* Use deep teal for titles */
+        color: #40687C;
         margin-bottom: 1rem;
-        border-bottom: 2px solid #A0B8C2; /* Lighter teal for borders */
+        border-bottom: 2px solid #A0B8C2;
         padding-bottom: 0.5rem;
         display: inline-block;
     }
@@ -45,21 +45,21 @@
     }
 
     .card {
-        background-color: #F1C5E6; /* Soft pink for cards */
+        background-color: #F1C5E6;
         padding: 1.5rem;
         flex: 1 1 300px;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: transform 0.2s; /* Card hover effect */
+        transition: transform 0.2s;
     }
 
     .card:hover {
-        transform: translateY(-5px); /* Lift effect on hover */
+        transform: translateY(-5px);
     }
 
     .card h2 {
         margin-top: 0;
-        color: #40687C; /* Use deep teal for card titles */
+        color: #40687C;
         font-weight: 500;
     }
 
@@ -81,7 +81,7 @@
     }
 
     .data-table th {
-        background-color: #40687C; /* Deep teal for header */
+        background-color: #40687C;
         color: white;
         font-weight: 500;
     }
@@ -89,7 +89,7 @@
     .upload-section {
         margin-top: 2rem;
         padding: 1.5rem;
-        background-color: #A0B8C2; /* Lighter teal for upload section */
+        background-color: #A0B8C2;
         border-radius: 8px;
         text-align: center;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -103,20 +103,20 @@
         display: inline-block;
         padding: 0.75rem 1.5rem;
         color: white;
-        background-color: #40687C; /* Deep teal for button */
+        background-color: #40687C;
         border-radius: 5px;
         cursor: pointer;
         font-weight: 500;
         margin-top: 0.5rem;
-        transition: background-color 0.3s; /* Smooth transition for hover effect */
+        transition: background-color 0.3s;
     }
 
     .upload-section label:hover {
-        background-color: #A0B8C2; /* Change color on hover */
+        background-color: #A0B8C2;
     }
 
     .footer {
-        background-color: #f4f4f9; /* Light gray for footer */
+        background-color: #f4f4f9;
         color: #333;
         text-align: center;
         padding: 1rem 2rem;
@@ -124,7 +124,6 @@
         font-size: 0.9rem;
     }
 
-    /* Responsive Design */
     @media (max-width: 768px) {
         .content {
             flex-direction: column;
@@ -132,9 +131,9 @@
     }
 
     .logo {
-        max-width: 80%; /* or 100% if you prefer full-width */
-        height: auto; /* Maintain aspect ratio */
-        display: block; /* Remove extra space below the image */
-        margin: 0 auto; /* Center the image */
+        max-width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
     }
 </style>

@@ -73,5 +73,6 @@ jobs:
         with:
           app-name: 'WIC-aegis'
           slot-name: 'Production'
-          startup-command: 'gunicorn --bind 0.0.0.0:8000 app:app'
+          startup-command: 'gunicorn --bind 0.0.0.0:8000 flask-app.app:app'
+
                 

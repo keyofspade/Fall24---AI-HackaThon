@@ -1,0 +1,140 @@
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #4b79a1; /* Original background */
+        color: #333;
+    }
+
+    header {
+        background-color: #40687C; /* Deep teal for header */
+        color: white;
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        background-color: white; /* White for main content */
+        border-radius: 12px; /* Slightly rounded corners for a softer look */
+    }
+
+    .section-title {
+        font-weight: 500;
+        color: #40687C; /* Use deep teal for titles */
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #A0B8C2; /* Lighter teal for borders */
+        padding-bottom: 0.5rem;
+        display: inline-block;
+    }
+
+    .content {
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        background-color: #F1C5E6; /* Soft pink for cards */
+        padding: 1.5rem;
+        flex: 1 1 300px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s; /* Card hover effect */
+    }
+
+    .card:hover {
+        transform: translateY(-5px); /* Lift effect on hover */
+    }
+
+    .card h2 {
+        margin-top: 0;
+        color: #40687C; /* Use deep teal for card titles */
+        font-weight: 500;
+    }
+
+    .card p {
+        margin: 0.5rem 0;
+    }
+
+    .data-table {
+        width: 100%;
+        margin-top: 1rem;
+        border-collapse: collapse;
+    }
+
+    .data-table th,
+    .data-table td {
+        padding: 0.75rem 1rem;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    .data-table th {
+        background-color: #40687C; /* Deep teal for header */
+        color: white;
+        font-weight: 500;
+    }
+
+    .upload-section {
+        margin-top: 2rem;
+        padding: 1.5rem;
+        background-color: #A0B8C2; /* Lighter teal for upload section */
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .upload-section input[type="file"] {
+        display: none;
+    }
+
+    .upload-section label {
+        display: inline-block;
+        padding: 0.75rem 1.5rem;
+        color: white;
+        background-color: #40687C; /* Deep teal for button */
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: 500;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+    }
+
+    .upload-section label:hover {
+        background-color: #A0B8C2; /* Change color on hover */
+    }
+
+    .footer {
+        background-color: #f4f4f9; /* Light gray for footer */
+        color: #333;
+        text-align: center;
+        padding: 1rem 2rem;
+        margin-top: 2rem;
+        font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .content {
+            flex-direction: column;
+        }
+    }
+
+    .logo {
+        max-width: 80%; /* or 100% if you prefer full-width */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Remove extra space below the image */
+        margin: 0 auto; /* Center the image */
+    }
+</style>

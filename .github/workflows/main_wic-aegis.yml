@@ -71,7 +71,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'WIC-Aegis-pawsitiveai'
+          app-name: 'wic-aegis/pawsitiveai'
           slot-name: 'Production'
           startup-command: 'gunicorn --bind=0.0.0.0 --timeout 600 app:app'
                 

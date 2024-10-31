@@ -3,17 +3,20 @@ from azure.storage.blob import BlobServiceClient
 from dotenv import load_dotenv
 import os
 import logging
+import secrets
 
 # Initialize Flask app
 app = Flask(__name__)
+app.secret_key = secrets.token_hex(16)  # Generates a random 32-character hex string
+
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Load environment variables
-#logger.info("Loading environment variables.")
-#load_dotenv('language.env')
+logger.info("Loading environment variables.")
+load_dotenv('language.env')
 
 # Azure Blob Storage credentials
 connection_string = os.getenv('connection_string')

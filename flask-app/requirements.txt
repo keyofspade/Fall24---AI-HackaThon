@@ -1,3 +1,4 @@
+gunicorn
 Flask 
 azure-storage-blob
 python-dotenv

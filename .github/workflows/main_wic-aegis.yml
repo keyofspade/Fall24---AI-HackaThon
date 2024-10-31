@@ -72,5 +72,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'WIC-Aegis'
+          slot-name: 'pawsitiveai'
           startup-command: 'gunicorn --bind=0.0.0.0 --timeout 600 app:app'
                 

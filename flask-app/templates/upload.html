@@ -5,51 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aegis Defense: Data Privacy & Compliance Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../static/static.css"/> <!-- Corrected the attribute syntax -->
-</head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aegis Defense</title>
+    <link rel="stylesheet" type="text/css" href="../static/static.css"/>
 </head>
 <body>
 
     <header>
         <h1>Aegis Scan: Data Privacy & Compliance Dashboard</h1>
         <p>This dashboard helps you upload files, view detected sensitive data, and review compliance recommendations for regulatory standards like GDPR and HIPAA.</p>
-        <button onclick="speakText()" aria-label="Activate text-to-speech for overview">🔊 Hear Overview</button>
     </header>
 
     <main class="container">
         <img src="../static/AegisScanLogoCrop.webp" class="logo"/>
-        <section class="project-description">
-            <h2>Project Overview</h2>
+        
+        <section class="project-summary">
+            <h2>About Product</h2>
             <p>
-                Welcome to the Aegis Scan App! This project is designed to help organizations monitor and manage their data privacy and compliance efforts effectively. By providing a centralized interface, users can easily upload, analyze, and visualize their data privacy metrics, ensuring adherence to relevant regulations and best practices. Our goal is to empower businesses to safeguard sensitive information while maintaining transparency and accountability.
+                Welcome to the Aegis Scan App! This Product is designed to help organizations monitor and manage their data privacy and compliance efforts effectively. By providing a centralized interface, users can easily upload, analyze, and visualize their data privacy metrics, ensuring adherence to relevant regulations and best practices. Our goal is to empower businesses to safeguard sensitive information while maintaining transparency and accountability.
             </p>
+            <button onclick="speakSummary()" aria-label="Hear Project Overview">🔊 About Product</button>
         </section>
         
-        <section class="usage-instructions">
-            <h2>How to Use the Dashboard</h2>
-            <p>
-                Getting started with the Data Privacy & Compliance Dashboard is simple. Follow these steps:
-            </p>
+        <section class="howdoesitwork">
+            <h2>How to Use AegisScan</h2>
+            <p>Getting started with the AegisScan application is simple. Follow these steps:</p>
             <ol>
-                <li>
-                    <strong>Upload Data Files:</strong> Click on the "Upload" button to select and upload your data files. Supported formats include .txt and .csv.
-                </li>
-                <li>
-                    <strong>Analyze Data:</strong> Once uploaded, the dashboard will automatically analyze the data and display key metrics and insights.
-                </li>
-                <li>
-                    <strong>Visualize Results:</strong> Explore the visualizations provided to gain a better understanding of your data privacy status and compliance levels.
-                </li>
-                <li>
-                    <strong>Generate Reports:</strong> Use the reporting feature to generate summaries and detailed reports for stakeholders.
-                </li>
+                <li><strong>Upload Data Files:</strong> Click on the "Upload" button to select and upload your data files. Supported formats include .txt and .csv.</li>
+                <li><strong>Analyze Data:</strong> Once uploaded, the dashboard will automatically analyze the data and display key metrics and insights.</li>
+                <li><strong>Visualize Results:</strong> Explore the visualizations with Power BI to gain a better understanding of your data privacy status and compliance levels.</li>
+                <li><strong>Generate Reports:</strong> Use the reporting feature to generate summaries and detailed reports for stakeholders.</li>
             </ol>
-            <p>
-                If you have any questions or need further assistance, please refer to the help section or contact our support team.
-            </p>
+            <a href="https://app.powerbi.com/groups/me/reports/b0314f61-9972-4024-906e-a7fd86914fd3/6b48ca02a1961f0f8497?experience=power-bi"> Click here to view dashboard!</a>
+            <p>If you have any questions or need further assistance, please refer to the help section or contact our support team.</p>
+            <button onclick="speakHowDoesItWork()" aria-label="Hear How to Use Dashboard">🔊 Hear How to Use Dashboard</button>
         </section>
         
         <section class="upload-section">
@@ -64,11 +51,22 @@
     </main>
 
     <footer class="footer">
-        &copy; 2024 Data Privacy Project | Compliant with GDPR & HIPAA Standards
+        &copy; 2024 Data Privacy Product | Compliant with GDPR & HIPAA Standards
     </footer>
 
     <script>
-        // Display the selected file name
+        function speakSummary() {
+            const projectSummaryText = document.querySelector('.project-summary').innerText;
+            const utterance = new SpeechSynthesisUtterance(projectSummaryText);
+            window.speechSynthesis.speak(utterance);
+        }
+
+        function speakHowDoesItWork() {
+            const howDoesItWorkText = document.querySelector('.howdoesitwork').innerText;
+            const utterance = new SpeechSynthesisUtterance(howDoesItWorkText);
+            window.speechSynthesis.speak(utterance);
+        }
+
         function displayFileName() {
             const fileInput = document.getElementById('fileInput');
             const fileNameDisplay = document.getElementById('fileName');
@@ -79,7 +77,6 @@
             }
         }
 
-        // Upload the file to the server
         async function uploadFile() {
             const fileInput = document.getElementById('fileInput');
             const uploadStatus = document.getElementById('uploadStatus');
@@ -108,13 +105,11 @@
                 }
             } catch (error) {
                 console.error("Error uploading file:", error);
-                const responseText = await response.text(); // Get the response text
-                console.error("Server response:", responseText); // Log the server response
                 uploadStatus.innerText = "Error uploading file.";
             }
-
         }
     </script>
+    
 
 </body>
 </html>

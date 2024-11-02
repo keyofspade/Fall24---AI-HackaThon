@@ -1,25 +1,25 @@
 # 2024-AI-HACKATHON
 # Team PawsitiveAI
 
-This repository contains the Python scripts and files required to build the "AegisScan" - our product serves to scan and detect in real-time PII and PHI to provide the best recommendation across private and federal sectors. Our solution aims to support organization and companies to safeguard sensitive data and make data management and compliance more seamless for teams and departments. 
-## Overview
+This repository contains all necessary Python scripts and files to build AegisScan — a real-time tool for detecting and managing sensitive data, particularly PII (Personally Identifiable Information) and PHI (Protected Health Information). AegisScan is designed to support organizations in both the private and federal sectors by recommending best practices to ensure sensitive data is safeguarded, streamlining data management and compliance.
 
 The product consists of the following main components:
 
-1.`languagemodel`: Azure function app containing Python scripts to ingest raw files and automate calls to AI Language model and ML model.
+1. `languagemodel`: Azure function app containing Python scripts to ingest raw files and automate calls to AI Language model and ML model.
 2. `language.env`: Empty environmental file that you need to add your Azure credentials, URI, and API keys to run the Python scripts.
 3. `ml.py`: Python script responsible for uploading from Azure storage account's blob container and running Random Forest Model to determine action/recommendation predictions.
 4. `flask_app`:
    * `app.py`: Python script that contains Flask app that accepts file submission and transfers it to the azure blob storage.
    * `/templates` directory contains the html format(s)
-   * `/static` directory contains the html format(s)
+   * `/static` contains static assets like CSS and JavaScript files for the web interface.
 ## Features
 
-* Users uploading files to the Web App, which are then stored in a designated Blob Storage container.
-* Triggering Logic App to initiate the Azure Function workflow. 
-    * Azure Language service to detect and categorize PII/PHI, outputting flagged data in JSON.
-    * The ML model then processes this JSON to add recommended actions.
-    * The final output is saved as a CSV in Blob Storage, where PowerBI connects to retrieve and visualize insights via PowerBI, Tableau, etc. 
+* File Upload and Storage: Users upload files through the web app, which are stored in a designated Azure Blob Storage container.
+* Automated Data Detection and Categorization:
+    * A Logic App triggers an Azure Function workflow, analyzing files via the Azure Language Service to detect and categorize PII/PHI.
+    * The ML model processes the output JSON to generate actionable recommendations.
+    * The final output is saved as a CSV in Blob Storage, where PowerBI connects to retrieve and visualize insights via PowerBI, Tableau, etc.
+* Data Visualization: PowerBI connects to the Blob Storage for ongoing insights and visualizations.
 
 ## Prerequisites
 
@@ -33,24 +33,26 @@ To run the Python scripts, ensure that you have the following prerequisites set 
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/kcao1199/2024-AI-HACKATHON.git](https://github.com/keyofspade/Fall24---AI-HackaThon.git
+    git clone https://github.com/keyofspade/Fall24---AI-HackaThon.git
     cd 2024-AI-HACKATHON
     ```
 
 2. **Install Required Python Packages**:
     ```bash
-    pip install python-dotenv azure-identity azure-storage-blob azure-search-documents flask
+    pip install python-dotenv azure-identity azure-storage-blob pandas scikit-learn joblib
     ```
 
 ## Usage
   
 1. **Create and Update Environment Files**:
    - Fill in the provided environmental files with your Azure credentials and configurations.
+   - Note: Ensure language.env is in .gitignore to keep credentials secure.
      
 2. **Access the Web Interface**:
-    Open your web browser and navigate to the URL provided by the Flask server (typically `http://127.0.0.1:5000`) to access the product and submit your desired file.
+   - Open your web browser and navigate to the URL provided by the Flask server to access the product and submit your desired file.
   
-4. Monitor the console output for any errors or log messages during the execution of the scripts. 
+3. **Connect PowerBI to Blob Storage**
+   - To visualize insights
 
 ### Troubleshooting
 

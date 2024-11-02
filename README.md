@@ -60,15 +60,11 @@ If you encounter any issues during setup or usage, refer to the following troubl
 
 2. **Python Environment**: If you encounter errors related to missing packages or compatibility issues, double-check that you are using the correct Python environment. Consider using a virtual environment to isolate dependencies.
 
-3. **Environmental File Configuration**: Check that your `storage.env` and `index.env` files are correctly configured with the required Azure credentials, URI, and API keys. Any typos or incorrect formatting can lead to authentication failures.
+3. **Environmental File Configuration**: Check that your `language.env` files are correctly configured with the required Azure credentials, URI, and API keys. Any typos or incorrect formatting can lead to authentication failures.
 
-4. **File Upload**: If the `upload_docs.py` script fails to upload files to Azure storage, ensure that the file paths are correct and that you have the necessary permissions to access the files.
+4. **Web Interface**: If you are unable to access the web interface served by Flask, ensure that the Flask app is running correctly (`python flask_app/app.py`) and that there are no firewall or network restrictions blocking access to port 5000.
 
-5. **Indexing Process**: If the `run_indexer.py` script encounters errors during the indexing process, check the console output for specific error messages. Common issues include invalid document formats or connectivity problems with the Azure search service.
-
-6. **Web Interface**: If you are unable to access the web interface served by Flask, ensure that the Flask app is running correctly (`python flask_app/app.py`) and that there are no firewall or network restrictions blocking access to port 5000.
-
-7. **Logging and Debugging**: Enable logging and debugging in your scripts to capture detailed information about any errors or issues encountered. This can help pinpoint the root cause of problems and facilitate troubleshooting.
+5. **Logging and Debugging**: Enable logging and debugging in your scripts to capture detailed information about any errors or issues encountered. This can help pinpoint the root cause of problems and facilitate troubleshooting.
 
 By following these troubleshooting tips and leveraging community support, you should be able to resolve most issues encountered while setting up or using the AI Search solution.
 ## Acknowledgements

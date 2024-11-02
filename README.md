@@ -6,9 +6,9 @@ This repository contains the Python scripts and files required to build the "Aeg
 
 The product consists of the following main components:
 
-1. `ml.py`: Python script responsible for uploading from Azure storage account's blob container and running Random Forest Model to determine action/recommendation predictions.
-2. `run_indexer.py`
-3. `storage.env` and `index.env` are empty environmental files that you need to add your Azure credentials, URI, and API keys to run the Python scripts.
+1.`languagemodel`: Azure function app containing Python scripts to ingest raw files and automate calls to AI Language model.
+2. `language.env`: Empty environmental file that you need to add your Azure credentials, URI, and API keys to run the Python scripts
+3. `ml.py`: Python script responsible for uploading from Azure storage account's blob container and running Random Forest Model to determine action/recommendation predictions.
 4. `flask_app`:
    * `app.py`: Python script that contains Flask app that accepts file submission and transfers it to the azure blob storage.
    * `/templates` directory contains the html format(s)
@@ -16,10 +16,10 @@ The product consists of the following main components:
 ## Features
 
 * Users uploading files to the Web App, which are then stored in a designated Blob Storage container.
-* Triggering Logic App to initiate the Azure Function workflow. T
+* Triggering Logic App to initiate the Azure Function workflow. 
     * Azure Language service to detect and categorize PII/PHI, outputting flagged data in JSON.
     * The ML model then processes this JSON to add recommended actions.
-    * The final output is saved as a CSV in Blob Storage, where PowerBI connects to retrieve and visualize insights.
+    * The final output is saved as a CSV in Blob Storage, where PowerBI connects to retrieve and visualize insights via PowerBI, Tableau, etc. 
 
 ## Prerequisites
 

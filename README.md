@@ -6,7 +6,7 @@ This repository contains the Python scripts and files required to build the "Aeg
 
 The product consists of the following main components:
 
-1.`languagemodel`: Azure function app containing Python scripts to ingest raw files and automate calls to AI Language model.
+1.`languagemodel`: Azure function app containing Python scripts to ingest raw files and automate calls to AI Language model and ML model.
 2. `language.env`: Empty environmental file that you need to add your Azure credentials, URI, and API keys to run the Python scripts
 3. `ml.py`: Python script responsible for uploading from Azure storage account's blob container and running Random Forest Model to determine action/recommendation predictions.
 4. `flask_app`:

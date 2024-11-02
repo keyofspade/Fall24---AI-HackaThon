@@ -13,7 +13,7 @@ The product consists of the following main components:
    * `/templates` directory contains the html format(s)
    * `/static` contains static assets like CSS and JavaScript files for the web interface.
 ## Features
-
+![alt text](https://github.com/keyofspade/Fall24---AI-HackaThon/blob/main/architecture_diagram.png)
 * File Upload and Storage: Users upload files through the web app, which are stored in a designated Azure Blob Storage container.
 * Automated Data Detection and Categorization:
     * A Logic App triggers an Azure Function workflow, analyzing files via the Azure Language Service to detect and categorize PII/PHI.
@@ -34,7 +34,7 @@ To run the Python scripts, ensure that you have the following prerequisites set 
 1. **Clone the Repository**:
     ```bash
     git clone https://github.com/keyofspade/Fall24---AI-HackaThon.git
-    cd 2024-AI-HACKATHON
+    cd Fall24---AI-HackaThon
     ```
 
 2. **Install Required Python Packages**:

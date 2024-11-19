@@ -1,5 +1,5 @@
 # 2024-AI-HACKATHON
-# Team PawsitiveAI
+# Team PawsitiveAI (Doan Bui and Kelly Cao)
 
 This repository contains all necessary Python scripts and files to build AegisScan — a real-time tool for detecting and managing sensitive data, particularly PII (Personally Identifiable Information) and PHI (Protected Health Information). AegisScan is designed to support organizations in both the private and federal sectors by recommending best practices to ensure sensitive data is safeguarded, streamlining data management and compliance.
 
